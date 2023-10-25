@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Muli&display=swap');
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  /* changes the 1REM from 16px to 10px */
+  font-size: 62.5%;
+}
+
+body {
+
+  font-family: "Muli", sans-serif;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+
+  /* background-color: #2b88F0; */
+  background-color: #00A9FF;
+}
+
+h3 {
+  text-align: center;
+  color: #fff;
+  margin: 1rem 0 2rem;
+  font-size: 16px;
+}
+
+.container {
+  max-width: 50rem;
+}
+
+#textArea {
+  border: none;
+  display: block;
+  width: 100%;
+  height: 100%;
+  font-family: inherit;
+  padding: 10px;
+  font-size: 16px;
+  margin: 0 0 2rem;
+}
+
+#textArea:focus,
+#textArea:focus-visible {
+  outline: none;
+}
+
+.tags .tag {
+  background-color: #f0932b;
+  color: #fff;
+  border-radius: 50px;
+  padding: 10px 20px;
+  margin: 0 5px 10px 0;
+  font-size: 14px;
+  display: inline-block;
+}
+
+.tags .tag.highlight {
+  background-color: #273c75;
+}
